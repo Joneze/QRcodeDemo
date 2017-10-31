@@ -18,6 +18,7 @@ JMQRCodeView *qrView = [JMQRCodeView new];
 
 
 以下是效果图
+
 ![效果图](https://github.com/Joneze/QRcodeDemo/blob/master/QRCodeDemo/qrcode.jpeg)
 
 
