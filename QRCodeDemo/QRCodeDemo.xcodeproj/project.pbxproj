@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F95EE6151FA86618009A2119 /* JMQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95EE6141FA86618009A2119 /* JMQRCodeView.m */; };
 		F9841CCD1FA709EE009AA7E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9841CCC1FA709EE009AA7E6 /* AppDelegate.m */; };
 		F9841CD01FA709EE009AA7E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9841CCF1FA709EE009AA7E6 /* ViewController.m */; };
 		F9841CD31FA709EE009AA7E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9841CD11FA709EE009AA7E6 /* Main.storyboard */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F95EE6131FA86618009A2119 /* JMQRCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMQRCodeView.h; sourceTree = "<group>"; };
+		F95EE6141FA86618009A2119 /* JMQRCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMQRCodeView.m; sourceTree = "<group>"; };
+		F95EE6161FA86A50009A2119 /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
 		F9841CC81FA709EE009AA7E6 /* QRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9841CCB1FA709EE009AA7E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9841CCC1FA709EE009AA7E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		F9841CCA1FA709EE009AA7E6 /* QRCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F95EE6161FA86A50009A2119 /* SGQRCode.bundle */,
 				F9841CCB1FA709EE009AA7E6 /* AppDelegate.h */,
 				F9841CCC1FA709EE009AA7E6 /* AppDelegate.m */,
 				F9841CCE1FA709EE009AA7E6 /* ViewController.h */,
@@ -115,6 +120,8 @@
 				F9841CDA1FA709EE009AA7E6 /* main.m */,
 				F9841CFD1FA70B3E009AA7E6 /* QRCodeViewController.h */,
 				F9841CFE1FA70B3E009AA7E6 /* QRCodeViewController.m */,
+				F95EE6131FA86618009A2119 /* JMQRCodeView.h */,
+				F95EE6141FA86618009A2119 /* JMQRCodeView.m */,
 			);
 			path = QRCodeDemo;
 			sourceTree = "<group>";
@@ -272,6 +279,7 @@
 			files = (
 				F9841CD01FA709EE009AA7E6 /* ViewController.m in Sources */,
 				F9841CDB1FA709EE009AA7E6 /* main.m in Sources */,
+				F95EE6151FA86618009A2119 /* JMQRCodeView.m in Sources */,
 				F9841CFF1FA70B3E009AA7E6 /* QRCodeViewController.m in Sources */,
 				F9841CCD1FA709EE009AA7E6 /* AppDelegate.m in Sources */,
 			);
