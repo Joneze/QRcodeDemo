@@ -26,6 +26,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupCamera];
+    
+    self.title = @"扫一扫";
 }
 
 -(void)setupCamera
@@ -41,6 +43,11 @@
     }
     
     JMQRCodeView *qrView = [JMQRCodeView new];
+    
+    qrView.JMQRCodeViewcaptureOutputBlock = ^(NSString *stringValue) {
+        NSLog(@"扫一扫结果回调:%@",stringValue);
+        //这里可以做 扫描成功后的操作
+    };
     [self.view addSubview:qrView];
     
     

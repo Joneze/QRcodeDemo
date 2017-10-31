@@ -182,6 +182,9 @@
         AVMetadataMachineReadableCodeObject * metadataObject = [metadataObjects objectAtIndex:0];
         stringValue = metadataObject.stringValue;
         NSLog(@"扫描结果：%@",stringValue);
+        if (self.JMQRCodeViewcaptureOutputBlock) {
+            self.JMQRCodeViewcaptureOutputBlock(stringValue);
+        }
     }
 }
 

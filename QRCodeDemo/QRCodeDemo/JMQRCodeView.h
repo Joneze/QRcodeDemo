@@ -10,4 +10,6 @@
 
 @interface JMQRCodeView : UIView
 
+@property (nonatomic, copy)void(^JMQRCodeViewcaptureOutputBlock)(NSString *stringValue);
+
 @end
