@@ -9,6 +9,9 @@
 #import "QRCodeViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "JMQRCodeView.h"
+
+
+
 /**
  *  屏幕 高 宽 边界
  */
